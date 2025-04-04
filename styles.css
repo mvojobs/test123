@@ -1,12 +1,12 @@
 :root {
-    --primary-color: #4a4aff;
-    --secondary-color: #9d4aff;
+    --primary-color: #ff4a4a;
+    --secondary-color: #ff9d4a;
     --text-color: #e0e0e0;
     --background-color: #0a0a14;
     --nav-bg: rgba(20, 20, 40, 0.9);
     --card-bg: rgba(20, 20, 40, 0.7);
-    --hover-color: rgba(100, 100, 255, 0.2);
-    --glow-color: rgba(100, 100, 255, 0.5);
+    --hover-color: rgba(255, 100, 100, 0.2);
+    --glow-color: rgba(255, 100, 100, 0.5);
     --heading-font: 'Orbitron', sans-serif;
     --body-font: 'Space Grotesk', sans-serif;
 }
@@ -46,7 +46,7 @@ nav {
 }
 
 nav a {
-    color: #a0a0ff;
+    color: #ffa0a0;
     text-decoration: none;
     font-family: var(--heading-font);
     font-weight: 500;
@@ -95,7 +95,7 @@ main {
 
 h1 {
     font-family: var(--heading-font);
-    color: #a0a0ff;
+    color: #ffa0a0;
     font-size: 3rem;
     margin-bottom: 1.5rem;
     text-align: center;
@@ -108,7 +108,7 @@ h1 {
 
 h2 {
     font-family: var(--heading-font);
-    color: #a0a0ff;
+    color: #ffa0a0;
     font-size: 2.2rem;
     margin: 2rem 0 1rem;
     text-shadow: 0 0 8px var(--glow-color);
@@ -118,7 +118,7 @@ h2 {
 
 h3 {
     font-family: var(--heading-font);
-    color: #a0a0ff;
+    color: #ffa0a0;
     font-size: 1.6rem;
     margin: 1.5rem 0 1rem;
     text-shadow: 0 0 6px var(--glow-color);
@@ -170,8 +170,8 @@ h3 {
 
 .feature:hover {
     transform: translateY(-5px);
-    box-shadow: 0 5px 15px var(--glow-color);
-    border-color: var(--primary-color);
+    box-shadow: 0 5px 15px rgba(255, 100, 100, 0.5);
+    border-color: #ff4a4a;
 }
 
 .cta {
