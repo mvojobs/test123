@@ -15,7 +15,12 @@
             <a href="index.html" class="active">Home</a>
             <a href="about.html">About</a>
             <a href="contact.html">Contact</a>
-            <a href="patrick.html">Patrick</a>
+            <select onchange="if (this.value) window.location.href=this.value">
+                <option value="">Choose One...</option>
+                <option value="mike.html">Mike</option>
+                <option value="steven.html">Steven</option>
+                <option value="patrick.html">Patrick</option>
+            </select>
         </div>
     </nav>
     <main>
@@ -51,4 +56,4 @@
     <canvas id="particleCanvas"></canvas>
     <script src="script.js"></script>
 </body>
-</html> 
+</html>

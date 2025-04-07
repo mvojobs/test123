@@ -310,7 +310,7 @@ function initContactForm() {
         const button = form.querySelector('button');
         button.classList.add('glow');
         
-        // Show a cosmic-themed success message
+        // Show a spooky dark-themed success message
         const successMessage = document.createElement('div');
         successMessage.style.position = 'fixed';
         successMessage.style.top = '50%';
@@ -344,4 +344,4 @@ function initContactForm() {
 document.addEventListener('DOMContentLoaded', () => {
     initCosmicAnimation();
     initContactForm();
-}); 
+});
